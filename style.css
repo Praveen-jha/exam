@@ -63,7 +63,7 @@ html{
 
 body {
   background: url("bg.jpg") center center/cover no-repeat;
-  height: 370vh;
+  height: 450vh;
   color: white;
 }
 .img img {
@@ -159,7 +159,7 @@ a {
   margin: 5px auto;
   padding: 21px 30px;
   border-radius: 30px;
-    background-color: #514040;
+  background-color: #ef5ed5;
 }
 .last1{
   font-size: 20px;
@@ -168,3 +168,79 @@ a {
   padding: 21px 30px;
 
 }
+
+
+
+#contact{
+  
+  position: relative;
+  
+}
+#contact::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  background: url('img/contact.jpg') no-repeat center center/cover;
+
+}
+#contact-box form{
+  width: 40%;
+}
+#contact-box label{
+  font-size: 1.3rem;
+  font-family: "Ubuntu", sans-serif;
+}
+#contact-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 9px;
+  font-size: 1.1rem;
+
+}
+
+/* Utility Classes */
+.h-primary {
+  font-size: 2.8rem;
+  padding: 12px;
+  align-items: center;
+ 
+  font-family: "Bree Serif", serif;
+}
+.h-secondary {
+  font-size: 2.3rem;
+  padding: 12px;
+  font-family: "Bree Serif", serif;
+}
+.btn {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: brown;
+  color: white;
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.center {
+  text-align: center;
+  margin: 25px;
+ 
+}
+.btn11 input{
+  cursor: pointer;
+}
+.btn11 input:hover{
+  color: white;
+  background-color: rgb(109, 107, 107);
+}
+
