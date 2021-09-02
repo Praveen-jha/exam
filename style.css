@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+#logo {
+    margin: 1px 10px;
+    height: 60px;
+  }
+  header{
+    position: sticky;
+    top: 0;
+  }
+  #navbar img {
+    margin: 0px 5px;
+    padding: 1px 5px;
+    height: 60px;
+  }
+  /* Navigation Bar */
+  #navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  #navbar ul {
+    display: flex;
+  }
+  /* Navigation Bar List Style */
+  #navbar ul li {
+    list-style: none;
+    margin: 3px 5px;
+  }
+  #navbar ul li a {
+      color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 5px 15px;
+    margin: 2px 3px;
+    border-radius: 20px;
+  }
+  #navbar::before{
+      content: "";
+      background-color:black;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.5;
+  }
+  #navbar ul li a:hover{
+      color: black;
+      background-color: white;
+  }
+  marquee{
+    /* background-color: aqua; */
+  }
+
+
+body {
+  background: url("bg.jpg") center center/cover no-repeat;
+  height: 370vh;
+  color: white;
+}
+.img img {
+  width: 328px;
+  /* border: 3px solid white; */
+  border-radius: 20px;
+}
+.img {
+  position: absolute;
+  right: 50px;
+}
+.container {
+}
+.h2 {
+  margin: 29px 69px;
+}
+.h2 li {
+  padding: 5px 5px;
+  font-size: 29px;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-right: 300px;
+}
+.font {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 5px 5px;
+}
+
+.resume {
+  text-align: center;
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: blue;
+  margin: 2px auto;
+  background-color: aqua;
+}
+.all {
+    font-size: 2rem;
+    margin: 5px 2px;
+    color: #313143;
+}
+
+.data1 {
+    color: red;
+}
+.pic img {
+  width: 120px;
+}
+
+.lorem1 {
+  margin-top: 20px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+.deta {
+  width: 750px;
+}
+.skills {
+  margin-left: 30px;
+}
+a {
+  /* text-decoration: none; */
+  font-size: 20px;
+  font-size: 25px;
+}
+.imge img {
+  height: 150px;
+  float: right;
+  margin: 5px 20px;
+}
+.section-first {
+  margin-top: 211px;
+  margin-left: 20px;
+  font-size: 21px;
+}
+.section-second {
+  margin-top: 33px;
+}
+.last{
+  font-size: 30px;
+  width: 50%;
+  margin: 5px auto;
+  padding: 21px 30px;
+  border-radius: 30px;
+    background-color: #514040;
+}
+.last1{
+  font-size: 20px;
+  width: 50%;
+  margin: 5px auto;
+  padding: 21px 30px;
+
+}
